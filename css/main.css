@@ -5,7 +5,7 @@
 }
 :root{
     --index: calc(1vw + 1vh);
-    --text: #d9caa0;
+    --text: #d9c894;
     --transition: transform .75s cubic-bezier(.075, .5, 0, 1);
 }
 @font-face {
@@ -32,7 +32,7 @@ body{
     z-index: 100;
     width: 100%;
     height: calc(var(--index) *11);
-    background-image: url(../img/ground.png);
+    background-image: url(../img/ground.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -83,7 +83,7 @@ body{
 }
 
 .layers__caption{
-    font-size: calc(var(--index) / 1.3);
+    font-size: calc(var(--index) / 1);
     letter-spacing: calc(var(--index) / 1.2);
 }
 
