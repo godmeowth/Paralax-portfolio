@@ -5,7 +5,7 @@
 }
 :root{
     --index: calc(1vw + 1vh);
-    --text: #d9c894;
+    --text: #e8dbb4;
     --transition: transform .75s cubic-bezier(.075, .5, 0, 1);
 }
 @font-face {
@@ -75,7 +75,7 @@ body{
     text-transform: uppercase;
     font-weight: 900;
     color: var(--text);
-    text-shadow: 0 0 40px #cc9b27;
+    text-shadow: 0 0 40px #c9920e;
 }
 .layers__tittle{
     font-size: calc(var(--index) * 2);
